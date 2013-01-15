@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		592FABE216A4E2CC006A9FD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592FABE116A4E2CC006A9FD4 /* UIKit.framework */; };
+		592FABE416A4E2CC006A9FD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592FABE316A4E2CC006A9FD4 /* Foundation.framework */; };
+		592FABE616A4E2CC006A9FD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592FABE516A4E2CC006A9FD4 /* CoreGraphics.framework */; };
+		592FABEC16A4E2CC006A9FD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 592FABEA16A4E2CC006A9FD4 /* InfoPlist.strings */; };
+		592FABEE16A4E2CC006A9FD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 592FABED16A4E2CC006A9FD4 /* main.m */; };
+		592FABF216A4E2CC006A9FD4 /* CKRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 592FABF116A4E2CC006A9FD4 /* CKRAppDelegate.m */; };
+		592FABF416A4E2CC006A9FD4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 592FABF316A4E2CC006A9FD4 /* Default.png */; };
+		592FABF616A4E2CC006A9FD4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 592FABF516A4E2CC006A9FD4 /* Default@2x.png */; };
+		592FABF816A4E2CC006A9FD4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 592FABF716A4E2CC006A9FD4 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		592FABDD16A4E2CC006A9FD4 /* CooKooRoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CooKooRoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		592FABE116A4E2CC006A9FD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		592FABE316A4E2CC006A9FD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		592FABE516A4E2CC006A9FD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		592FABE916A4E2CC006A9FD4 /* CooKooRoo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CooKooRoo-Info.plist"; sourceTree = "<group>"; };
+		592FABEB16A4E2CC006A9FD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		592FABED16A4E2CC006A9FD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		592FABEF16A4E2CC006A9FD4 /* CooKooRoo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CooKooRoo-Prefix.pch"; sourceTree = "<group>"; };
+		592FABF016A4E2CC006A9FD4 /* CKRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CKRAppDelegate.h; sourceTree = "<group>"; };
+		592FABF116A4E2CC006A9FD4 /* CKRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKRAppDelegate.m; sourceTree = "<group>"; };
+		592FABF316A4E2CC006A9FD4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		592FABF516A4E2CC006A9FD4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		592FABF716A4E2CC006A9FD4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		592FABDA16A4E2CC006A9FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592FABE216A4E2CC006A9FD4 /* UIKit.framework in Frameworks */,
+				592FABE416A4E2CC006A9FD4 /* Foundation.framework in Frameworks */,
+				592FABE616A4E2CC006A9FD4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		592FABD216A4E2CC006A9FD4 = {
+			isa = PBXGroup;
+			children = (
+				592FABE716A4E2CC006A9FD4 /* CooKooRoo */,
+				592FABE016A4E2CC006A9FD4 /* Frameworks */,
+				592FABDE16A4E2CC006A9FD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		592FABDE16A4E2CC006A9FD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				592FABDD16A4E2CC006A9FD4 /* CooKooRoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		592FABE016A4E2CC006A9FD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				592FABE116A4E2CC006A9FD4 /* UIKit.framework */,
+				592FABE316A4E2CC006A9FD4 /* Foundation.framework */,
+				592FABE516A4E2CC006A9FD4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		592FABE716A4E2CC006A9FD4 /* CooKooRoo */ = {
+			isa = PBXGroup;
+			children = (
+				592FABF016A4E2CC006A9FD4 /* CKRAppDelegate.h */,
+				592FABF116A4E2CC006A9FD4 /* CKRAppDelegate.m */,
+				592FABE816A4E2CC006A9FD4 /* Supporting Files */,
+			);
+			path = CooKooRoo;
+			sourceTree = "<group>";
+		};
+		592FABE816A4E2CC006A9FD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				592FABE916A4E2CC006A9FD4 /* CooKooRoo-Info.plist */,
+				592FABEA16A4E2CC006A9FD4 /* InfoPlist.strings */,
+				592FABED16A4E2CC006A9FD4 /* main.m */,
+				592FABEF16A4E2CC006A9FD4 /* CooKooRoo-Prefix.pch */,
+				592FABF316A4E2CC006A9FD4 /* Default.png */,
+				592FABF516A4E2CC006A9FD4 /* Default@2x.png */,
+				592FABF716A4E2CC006A9FD4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		592FABDC16A4E2CC006A9FD4 /* CooKooRoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592FABFB16A4E2CC006A9FD4 /* Build configuration list for PBXNativeTarget "CooKooRoo" */;
+			buildPhases = (
+				592FABD916A4E2CC006A9FD4 /* Sources */,
+				592FABDA16A4E2CC006A9FD4 /* Frameworks */,
+				592FABDB16A4E2CC006A9FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CooKooRoo;
+			productName = CooKooRoo;
+			productReference = 592FABDD16A4E2CC006A9FD4 /* CooKooRoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		592FABD416A4E2CC006A9FD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CKR;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Tyler Calderone";
+			};
+			buildConfigurationList = 592FABD716A4E2CC006A9FD4 /* Build configuration list for PBXProject "CooKooRoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 592FABD216A4E2CC006A9FD4;
+			productRefGroup = 592FABDE16A4E2CC006A9FD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				592FABDC16A4E2CC006A9FD4 /* CooKooRoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		592FABDB16A4E2CC006A9FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592FABEC16A4E2CC006A9FD4 /* InfoPlist.strings in Resources */,
+				592FABF416A4E2CC006A9FD4 /* Default.png in Resources */,
+				592FABF616A4E2CC006A9FD4 /* Default@2x.png in Resources */,
+				592FABF816A4E2CC006A9FD4 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		592FABD916A4E2CC006A9FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592FABEE16A4E2CC006A9FD4 /* main.m in Sources */,
+				592FABF216A4E2CC006A9FD4 /* CKRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		592FABEA16A4E2CC006A9FD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				592FABEB16A4E2CC006A9FD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		592FABF916A4E2CC006A9FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		592FABFA16A4E2CC006A9FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		592FABFC16A4E2CC006A9FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CooKooRoo/CooKooRoo-Prefix.pch";
+				INFOPLIST_FILE = "CooKooRoo/CooKooRoo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		592FABFD16A4E2CC006A9FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CooKooRoo/CooKooRoo-Prefix.pch";
+				INFOPLIST_FILE = "CooKooRoo/CooKooRoo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		592FABD716A4E2CC006A9FD4 /* Build configuration list for PBXProject "CooKooRoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592FABF916A4E2CC006A9FD4 /* Debug */,
+				592FABFA16A4E2CC006A9FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		592FABFB16A4E2CC006A9FD4 /* Build configuration list for PBXNativeTarget "CooKooRoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592FABFC16A4E2CC006A9FD4 /* Debug */,
+				592FABFD16A4E2CC006A9FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 592FABD416A4E2CC006A9FD4 /* Project object */;
+}
