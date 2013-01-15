@@ -17,4 +17,7 @@
     CBPeripheral *thePeripheral;
 }
 
+- (void)switchAction:(UISwitch *)aSwitch;
+- (void)segmentAction:(UISegmentedControl *)aSegment;
+
 @end
