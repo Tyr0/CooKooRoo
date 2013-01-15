@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CKRAppDelegate : UIResponder <UIApplicationDelegate>
+@class CKRPeripheralTableViewController;
+
+@interface CKRAppDelegate : UIResponder <UIApplicationDelegate> {
+    UINavigationController *theNavigationController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) UINavigationController *theNavigationController;
 
 @end

@@ -16,6 +16,13 @@
 		592FABF416A4E2CC006A9FD4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 592FABF316A4E2CC006A9FD4 /* Default.png */; };
 		592FABF616A4E2CC006A9FD4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 592FABF516A4E2CC006A9FD4 /* Default@2x.png */; };
 		592FABF816A4E2CC006A9FD4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 592FABF716A4E2CC006A9FD4 /* Default-568h@2x.png */; };
+		5993A42316A5135F00FCF5FA /* CKRActionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993A42216A5135F00FCF5FA /* CKRActionTableViewController.m */; };
+		5993A42516A517F000FCF5FA /* CooKooCommands.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5993A42416A517EF00FCF5FA /* CooKooCommands.plist */; };
+		59E3503416A4E7420092FD39 /* CKRPeripheralTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E3503316A4E7420092FD39 /* CKRPeripheralTableViewController.m */; };
+		59E3503716A4EA9C0092FD39 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 59E3503616A4EA9C0092FD39 /* README.md */; };
+		59E3503B16A4EC2B0092FD39 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E3503A16A4EC2B0092FD39 /* MBProgressHUD.m */; };
+		59E3503E16A4EDB00092FD39 /* CKRBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E3503D16A4EDB00092FD39 /* CKRBluetoothManager.m */; };
+		59E3504016A4EDCF0092FD39 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E3503F16A4EDCF0092FD39 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,17 @@
 		592FABF316A4E2CC006A9FD4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		592FABF516A4E2CC006A9FD4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		592FABF716A4E2CC006A9FD4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5993A42116A5135F00FCF5FA /* CKRActionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKRActionTableViewController.h; sourceTree = "<group>"; };
+		5993A42216A5135F00FCF5FA /* CKRActionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKRActionTableViewController.m; sourceTree = "<group>"; };
+		5993A42416A517EF00FCF5FA /* CooKooCommands.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CooKooCommands.plist; sourceTree = "<group>"; };
+		59E3503216A4E7420092FD39 /* CKRPeripheralTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKRPeripheralTableViewController.h; sourceTree = "<group>"; };
+		59E3503316A4E7420092FD39 /* CKRPeripheralTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKRPeripheralTableViewController.m; sourceTree = "<group>"; };
+		59E3503616A4EA9C0092FD39 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		59E3503916A4EC2B0092FD39 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		59E3503A16A4EC2B0092FD39 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		59E3503C16A4EDB00092FD39 /* CKRBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKRBluetoothManager.h; sourceTree = "<group>"; };
+		59E3503D16A4EDB00092FD39 /* CKRBluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKRBluetoothManager.m; sourceTree = "<group>"; };
+		59E3503F16A4EDCF0092FD39 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E3504016A4EDCF0092FD39 /* CoreBluetooth.framework in Frameworks */,
 				592FABE216A4E2CC006A9FD4 /* UIKit.framework in Frameworks */,
 				592FABE416A4E2CC006A9FD4 /* Foundation.framework in Frameworks */,
 				592FABE616A4E2CC006A9FD4 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +70,7 @@
 		592FABD216A4E2CC006A9FD4 = {
 			isa = PBXGroup;
 			children = (
+				59E3503616A4EA9C0092FD39 /* README.md */,
 				592FABE716A4E2CC006A9FD4 /* CooKooRoo */,
 				592FABE016A4E2CC006A9FD4 /* Frameworks */,
 				592FABDE16A4E2CC006A9FD4 /* Products */,
@@ -68,6 +88,7 @@
 		592FABE016A4E2CC006A9FD4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				59E3503F16A4EDCF0092FD39 /* CoreBluetooth.framework */,
 				592FABE116A4E2CC006A9FD4 /* UIKit.framework */,
 				592FABE316A4E2CC006A9FD4 /* Foundation.framework */,
 				592FABE516A4E2CC006A9FD4 /* CoreGraphics.framework */,
@@ -80,7 +101,16 @@
 			children = (
 				592FABF016A4E2CC006A9FD4 /* CKRAppDelegate.h */,
 				592FABF116A4E2CC006A9FD4 /* CKRAppDelegate.m */,
+				59E3503216A4E7420092FD39 /* CKRPeripheralTableViewController.h */,
+				59E3503316A4E7420092FD39 /* CKRPeripheralTableViewController.m */,
+				59E3503916A4EC2B0092FD39 /* MBProgressHUD.h */,
+				59E3503A16A4EC2B0092FD39 /* MBProgressHUD.m */,
+				59E3503C16A4EDB00092FD39 /* CKRBluetoothManager.h */,
+				59E3503D16A4EDB00092FD39 /* CKRBluetoothManager.m */,
 				592FABE816A4E2CC006A9FD4 /* Supporting Files */,
+				5993A42116A5135F00FCF5FA /* CKRActionTableViewController.h */,
+				5993A42216A5135F00FCF5FA /* CKRActionTableViewController.m */,
+				5993A42416A517EF00FCF5FA /* CooKooCommands.plist */,
 			);
 			path = CooKooRoo;
 			sourceTree = "<group>";
@@ -155,6 +185,8 @@
 				592FABF416A4E2CC006A9FD4 /* Default.png in Resources */,
 				592FABF616A4E2CC006A9FD4 /* Default@2x.png in Resources */,
 				592FABF816A4E2CC006A9FD4 /* Default-568h@2x.png in Resources */,
+				59E3503716A4EA9C0092FD39 /* README.md in Resources */,
+				5993A42516A517F000FCF5FA /* CooKooCommands.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +199,10 @@
 			files = (
 				592FABEE16A4E2CC006A9FD4 /* main.m in Sources */,
 				592FABF216A4E2CC006A9FD4 /* CKRAppDelegate.m in Sources */,
+				59E3503416A4E7420092FD39 /* CKRPeripheralTableViewController.m in Sources */,
+				59E3503B16A4EC2B0092FD39 /* MBProgressHUD.m in Sources */,
+				59E3503E16A4EDB00092FD39 /* CKRBluetoothManager.m in Sources */,
+				5993A42316A5135F00FCF5FA /* CKRActionTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +274,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CooKooRoo/CooKooRoo-Prefix.pch";
 				INFOPLIST_FILE = "CooKooRoo/CooKooRoo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -249,6 +286,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CooKooRoo/CooKooRoo-Prefix.pch";
 				INFOPLIST_FILE = "CooKooRoo/CooKooRoo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -273,6 +311,7 @@
 				592FABFD16A4E2CC006A9FD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

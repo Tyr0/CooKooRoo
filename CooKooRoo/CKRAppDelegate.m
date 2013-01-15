@@ -7,8 +7,11 @@
 //
 
 #import "CKRAppDelegate.h"
+#import "CKRPeripheralTableViewController.h"
 
 @implementation CKRAppDelegate
+
+@synthesize theNavigationController;
 
 - (void)dealloc
 {
@@ -19,9 +22,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
+    // create the peripheral list
+    CKRPeripheralTableViewController *aPeripheralTableViewController = [[CKRPeripheralTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    // create our nav, with the peripheral list as the root
+    theNavigationController = [[UINavigationController alloc] initWithRootViewController:aPeripheralTableViewController];
+    
+    [self.window addSubview:theNavigationController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }

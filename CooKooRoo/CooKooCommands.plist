@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Email</key>
+	<dict>
+		<key>On</key>
+		<string>0b0101</string>
+		<key>Off</key>
+		<string>0b0100</string>
+	</dict>
+	<key>News</key>
+	<dict>
+		<key>On</key>
+		<string>0b0201</string>
+		<key>Off</key>
+		<string>0b0200</string>
+	</dict>
+	<key>Active Call</key>
+	<dict>
+		<key>On</key>
+		<string>0b0301</string>
+		<key>Off</key>
+		<string>0b0300</string>
+	</dict>
+	<key>Missed Call</key>
+	<dict>
+		<key>On</key>
+		<string>0b0401</string>
+		<key>Off</key>
+		<string>0b0400</string>
+	</dict>
+	<key>Alarm</key>
+	<dict>
+		<key>On</key>
+		<string>0bfc01</string>
+		<key>Off</key>
+		<string>0bfc00</string>
+	</dict>
+	<key>SMS</key>
+	<dict>
+		<key>On</key>
+		<string>0b0501</string>
+		<key>Off</key>
+		<string>0b0500</string>
+	</dict>
+	<key>Voicemail</key>
+	<dict>
+		<key>On</key>
+		<string>0b0601</string>
+		<key>Off</key>
+		<string>0b0600</string>
+	</dict>
+	<key>Calendar</key>
+	<dict>
+		<key>On</key>
+		<string>0b0701</string>
+		<key>Off</key>
+		<string>0b0700</string>
+	</dict>
+	<key>Instant Message</key>
+	<dict>
+		<key>On</key>
+		<string>0b0901</string>
+		<key>Off</key>
+		<string>0b0900</string>
+	</dict>
+</dict>
+</plist>
