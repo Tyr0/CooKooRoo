@@ -17,6 +17,10 @@
     NSMutableArray *thePeripheralArray;
     CBPeripheral *thePeripheral;
     CBCharacteristic *theCharacteristic;
+    
+    NSData *aShortHold;
+    NSData *aMediumHold;
+    NSData *aLongHold;
 }
 
 @property (nonatomic, retain) CBCentralManager *centralManager;

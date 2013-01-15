@@ -20,6 +20,9 @@ static CKRBluetoothManager *theSharedManager = nil;
     if (self = [super init]) {
         theCentralManager = [[CBCentralManager alloc] initWithDelegate:self queue:dispatch_get_main_queue()];
         thePeripheralArray = [[NSMutableArray alloc] init];
+        aShortHold = [CKRBluetoothManager dataFromHexString:@"c001000000000000000000000000000000000000"];
+        aMediumHold = [CKRBluetoothManager dataFromHexString:@"c002000000000000000000000000000000000000"];
+        aLongHold = [CKRBluetoothManager dataFromHexString:@"c003000000000000000000000000000000000000"];
     }
     return self;
 }
@@ -143,9 +146,40 @@ static CKRBluetoothManager *theSharedManager = nil;
     for (characteristic in [service characteristics]) {
         if ([[characteristic UUID] isEqual:[CBUUID UUIDWithString:@"4b455254-7472-11e1-a575-0002a5d54001"]]) {
             theCharacteristic = characteristic;
+            // listen for notifications from the device (holding command button)
+            [thePeripheral setNotifyValue:YES forCharacteristic:theCharacteristic];
             [[NSNotificationCenter defaultCenter] postNotificationName:@"CKRCharacteristicFoundNotification" object:nil];
         }
     }
+}
+
+// user sent command
+- (void)peripheral:(CBPeripheral *)peripheral didUpdateValueForCharacteristic:(CBCharacteristic *)characteristic error:(NSError *)error {
+    NSLog(@"%s %@", __FUNCTION__, characteristic.value);
+    
+    /*
+     short/tap - c0010000 00000000 00000000 00000000 00000000
+     medium - c0020000 00000000 00000000 00000000 00000000
+     long - c0030000 00000000 00000000 00000000 00000000
+     */
+    NSData *aData = characteristic.value;
+    NSString *aString;
+    if ([aData isEqualToData:aShortHold]) {
+        aString = @"short";
+    }
+    else if ([aData isEqualToData:aMediumHold]) {
+        aString = @"medium";
+    }
+    else if ([aData isEqualToData:aLongHold]) {
+        aString = @"long";
+    }
+    else {
+        aString = @"unknown";
+    }
+    
+    UIAlertView *aAlertView = [[UIAlertView alloc] initWithTitle:@"Command Recieved" message:[NSString stringWithFormat:@"You held the button for a %@ amount of time", aString] delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+    [aAlertView show];
+    [aAlertView release];
 }
 
 #pragma mark - Singleton Methods

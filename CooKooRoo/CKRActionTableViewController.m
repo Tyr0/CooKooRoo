@@ -16,6 +16,7 @@
 {
     self = [super initWithStyle:style];
     if (self) {
+        self.title = @"Actions";
         theActionDictionary = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"CooKooCommands" ofType:@"plist"]];
     }
     return self;
